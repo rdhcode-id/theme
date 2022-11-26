@@ -101,3 +101,10 @@ btnDark0.addEventListener("click", () => {
 btnDark.addEventListener("click", () => {
   btnDark0.click();
 });
+
+// Back to home
+const toHome = document.querySelector(".bottom__container_home");
+
+toHome.addEventListener("click", () => {
+  window.open("/");
+});
